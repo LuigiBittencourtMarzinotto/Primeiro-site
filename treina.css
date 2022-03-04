@@ -1,0 +1,318 @@
+
+#menu{
+    display:block;
+    background-color:rgb(250, 112, 0);
+    position: relative;
+}
+
+
+#menu ul{
+    list-style: none;
+    text-transform:uppercase;
+    position: relative;
+    text-align:center;
+    margin: 0px;
+    background-color: rgb(250, 112, 0);
+    
+    top: -10px;
+
+    padding: 30px;
+
+}
+#menu li{
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 1px rgb(0,0,0,.4);
+    
+}
+
+nav h1{
+    display: none;
+}
+#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+li{
+    font-size: 20px;
+    font-style:normal;
+
+}
+.millenium{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    margin: 0%;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+img{
+  margin: 0%;
+  width: 20%;
+  height: 20%;
+  padding: 0px;
+
+  
+  
+    
+}
+#quemsomos{
+    background-color: #FDD8BC;
+    font-family: Arial, sans-serif;
+    
+}
+#quemsomos p{
+    font-size: 125%;
+    
+}
+#history{
+    padding-top: 20px;
+}
+#rodape{
+    text-align: center;
+    border-top: 1px solid #606060;
+}
+.midia{
+   
+    text-decoration: none;
+    color: #000000;
+}
+.midiaa{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.lado{
+    text-align: center;
+}
+.jeito{
+    display: flex;
+    
+}
+
+.segundo{
+    
+    float: left;
+    width: 25%;
+    margin:  10px 30px 25px 25px;
+}
+#albumfotos{
+    width: 92%;
+    margin: auto;
+
+    padding: 50px;
+    overflow: hidden;
+    
+    display: inline-block;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    
+}
+
+#albumfotos li{
+   float:right;
+   width: 300px;
+   height: 300px;
+   margin: 20px;
+   border: 2px solid black;
+   -webkit-transition: all 0.2s ease-in;
+  
+}
+span{
+    opacity: 0;
+    color: azure;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgb(0,0,0,.4);
+    line-height: 500px;
+    padding: 5px;
+
+
+}
+#albumfotos li:hover span{
+ opacity: 1;   
+}
+#foto1{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/A4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+#foto2{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/A5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+#foto3{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/A6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto3:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+#foto4{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/A7.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto4:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+#foto5{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/A3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto5:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+#foto6{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/A2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto6:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+#foto7{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/TOPO.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto7:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+#foto8{
+    background: url('http://milleniumartesmdf.com.br/wp-content/uploads/2021/02/A11.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 770px 770px;
+}
+#foto8:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+#center{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    margin-top: 3%;
+    font-size: 23px;
+}
+#albumfotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+.centerr{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 3%;
+    padding-top: 20px;
+   
+    font-size: 23px;
+    
+}
+#videos{
+    background-color: #FDD8BC;
+}
+.video1{
+    text-align: center;
+    margin: 4px 48px 25px 70px;
+}
+.video2{
+    margin: 4px 62px 25px 48px;
+}
+#maps iframe{
+    width: 80%;
+    height: 500px;
+    margin: 0px 50px 10px 150px;
+
+}
+#maps{
+    background-color: #FDD8BC;
+}
+fieldset{
+    border: none;
+    margin: 0px 20% 0px 20% ;
+    
+}
+.cente{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 2%;
+    color: rgb(0,0,0,.4);
+   
+    font-size: 18px;
+    
+}
+form{
+    width: 400px;
+    margin: auto;
+}
+.cent{
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0,0,0,.2);
+    cursor: pointer;
+    display: inline-block;
+}
+.cent:hover{
+    background-color: rgb(0,0,0,.2);
+}
+input{
+    font-size: 20px;
+    box-shadow: 1px 1px 1px rgb(0,0,0,.3);
+    border-radius: 5px;
+   
+    
+}
+textarea{
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgb(0,0,0,.3);
+    border-radius: 5px;
+}
+input:hover, textarea:hover{
+    background-color: rgb(0,0,0,.2);
+
+}
+.alinhamento{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+form{
+    justify-content: center;
+}
